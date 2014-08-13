@@ -2,20 +2,7 @@
 ./configure --with-python --prefix=$PREFIX \
 --with-geos=$PREFIX/bin/geos-config \
 --with-static-proj4=$PREFIX \
---with-hdf5=no \
---with-hdf4=$PREFIX \
---with-xerces=$PREFIX \
---without-pam \
---with-python \
---with-jpeg=no \
---with-gif=no \
---with-png=no \
---disable-rpath
-make clean
-./configure --with-python --prefix=$PREFIX \
---with-geos=$PREFIX/bin/geos-config \
---with-static-proj4=$PREFIX \
---with-hdf5=no \
+--with-hdf5=$PREFIX \
 --with-hdf4=$PREFIX \
 --with-xerces=$PREFIX \
 --without-pam \
