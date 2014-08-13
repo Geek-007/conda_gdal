@@ -6,7 +6,7 @@
 --with-hdf4=$PREFIX \
 --with-xerces=$PREFIX \
 --without-pam \
---with-python 
+--with-python \
 --disable-rpath
 
 make -j 12
