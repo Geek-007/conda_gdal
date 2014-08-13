@@ -6,11 +6,9 @@
 --with-hdf4=$PREFIX \
 --with-xerces=$PREFIX \
 --without-pam \
---with-python \
---with-jpeg=no \
---with-gif=no \
---with-png=no \
+--with-python 
 --disable-rpath
+
 make -j 12
 make install
 
