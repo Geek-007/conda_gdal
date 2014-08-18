@@ -1,0 +1,4 @@
+91c91
+< #   define MAX_FILE   2048
+---
+> #   define MAX_FILE   32
