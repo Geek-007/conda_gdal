@@ -27,7 +27,7 @@ esac
     --without-libidn \
     --disable-ldap \
     --prefix=$PREFIX
-make
+make -j6
 make install
 
 rm -rf $PREFIX/share

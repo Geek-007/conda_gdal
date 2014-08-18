@@ -28,7 +28,7 @@ chmod +x configure;
     --disable-static \
     --with-zlib \
     --prefix=${PREFIX} || return 1;
-make || exit 1;
+make -j6 || exit 1;
 make check || exit 1;
 make install || exit 1;
 
