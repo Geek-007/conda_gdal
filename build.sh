@@ -6,6 +6,7 @@
 --with-hdf4=$PREFIX \
 --with-netcdf=$PREFIX \
 --with-xerces=$PREFIX \
+--with-sqlite=$PREFIX \
 --without-pam \
 --with-python \
 --disable-rpath

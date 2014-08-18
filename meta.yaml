@@ -11,14 +11,14 @@ requirements:
   build:
     - python
     - hdf4
-    - hdf5 1.8.13
+    - hdf5 
     - numpy
     - geos
     - proj4
     - curl
   run:
     - python
-    - hdf5 1.8.13
+    - hdf5
     - hdf4
     - numpy
     - geos
